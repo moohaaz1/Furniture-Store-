@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Fasthand", cursive;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #244d4d;
+  font-size: 25px;
+}
+ul li:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+  border-bottom: 1px solid #ffffff;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: white;
+}
+ul a {
+  color: rgb(223, 223, 223);
+  text-decoration: none;
+}
+.logo span {
+  color: rgb(255, 255, 255);
+}
+
+header {
+  background: url(imgs/background.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10%;
+  padding-bottom: 12%;
+  font-size: 35px;
+  padding-top: 300px;
+}
+.head p {
+  color: gray;
+  padding: 3px;
+  font-size: 30px;
+}
+.head h1 {
+  color: #244d4d;
+}
+.head button {
+  background-color: #244d4d;
+  padding: 15px;
+  width: 150px;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  border: 0;
+}
+.head button a {
+  text-decoration: none;
+  color: white;
+}
+.head button:hover {
+  transition: 0.4s;
+  background-color: #2b7474;
+}
+.shop img {
+  width: 400px;
+}
+.shops {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 100px;
+}
+.NEW-TXT {
+  text-align: center;
+  position: absolute;
+  margin-top: 50px;
+
+  color: #244d4d;
+  font-size: 10px;
+  letter-spacing: 10px;
+  justify-content: center;
+  margin-left: 10%;
+}
+.NEW-TXT hr {
+  width: 300%;
+}
+.text {
+  border: 1px solid;
+  margin-top: -8px;
+  padding-left: 10px;
+  padding: 15px;
+}
+.text h2 {
+  color: #244d4d;
+  padding: 5px;
+}
+.text button {
+  padding: 10px;
+  background-color: #244d4d;
+  width: 120px;
+  color: white;
+  border: 0;
+}
+
+.foots {
+  justify-content: center;
+  display: flex;
+  gap: 120px;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  background-color: #c6d8d8;
+  padding: 50px;
+  line-height: 50px;
+}
+.foot-inbut input {
+  padding: 15px;
+  width: 200px;
+}
+.foot-inbut button {
+  padding: 15px;
+  background-color: #244d4d;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin-top: 20px;
+  border: 0;
+}
+.footer-txt h1 {
+  color: #244d4d;
+}
+.qrl {
+  background-color: #244d4d;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding: 29px;
+  letter-spacing: 4px;
+}
+
+/*----------- shop---------*/
+
+.container {
+  background-color: #244d4d77;
+
+  padding: 40px;
+  color: white;
+}
+.container h1 {
+  margin-left: 100px;
+}
+.shop-txt {
+  margin-top: 20px;
+  border-bottom: 1px solid;
+  margin-left: 100px;
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+  color: #244d4d;
+}
+.shop-1 img {
+  width: 120px;
+}
+.shopp {
+  border: 1px solid #244d4d;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+}
+.btn button a {
+  text-decoration: none;
+  color: white;
+}
+.shopp {
+  color: white;
+  box-shadow: 0 0 5px #244d4d;
+}
+.shopp:hover {
+  color: white;
+  box-shadow: 0 0 20px #244d4d;
+  transition: 0.9s;
+}
+.shopp p {
+  color: #244d4d;
+  font-weight: 600;
+}
+.product-1 img {
+  width: 300px;
+}
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.product-txt {
+  margin-top: 20px;
+  border-bottom: 1px solid;
+  margin-left: 100px;
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+  color: #244d4d;
+}
+.product-bg {
+  border: 1px solid #244d4d;
+  padding: 15px;
+  margin-top: -9px;
+}
+.str i {
+  color: gold;
+  padding-top: 10px;
+}
+
+.products {
+  margin-top: 50px;
+}
+.aboot {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 160px;
+  line-height: 30px;
+}
+.aboot p {
+  padding: 10px;
+  color: gray;
+}
+.aboot h2 {
+  color: #244d4d;
+}
+
+.aboot button {
+  padding: 14px;
+  background-color: #244d4d;
+  color: white;
+  border: 0;
+  width: 150px;
+  font-size: 20px;
+}
+.aboot img {
+  width: 500px;
+}
+.combany img {
+  width: 150px;
+}
+.combanys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 100px;
+  text-align: center;
+}
+.combanys .amazone {
+  width: 220px;
+  margin-top: -50px;
+}
+.serfice {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #244d4d;
+  font-weight: 600;
+  justify-content: center;
+}
+.serfice h1::before {
+  content: "";
+  position: absolute;
+  background-color: #244d4d;
+  width: 200px;
+  height: 4px;
+  border-radius: 100%;
+  margin-top: 55px;
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.input {
+  margin-top: 10px;
+}
+.input input {
+  padding: 15px;
+  width: 290px;
+}
+.input .message {
+  padding-bottom: 200px;
+}
+.butun button {
+  padding: 14px;
+  width: 200px;
+  background-color: #244d4d;
+  color: white;
+  font-size: 20px;
+  border: 0;
+}
+.butun {
+  align-items: center;
+  margin-top: 10px;
+}
+.contacts {
+  background: url(imgs/bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: -1px;
+  padding: 50px;
+  padding-bottom: 100px;
+  background-attachment: fixed;
+}
+@media only screen and (max-width: 600px) {
+  footer {
+    text-align: center;
+  }
+  ul {
+    font-size: 10px;
+    padding: 20px;
+  }
+  .head {
+    margin-top: -185px;
+  }
+  .NEW-TXT {
+    margin-top: -2000px;
+  }
+  .logo {
+    font-size: 12px;
+    margin-right: 10px;
+    padding-top: 14px;
+  }
+  .product-1 img {
+    width: 100%;
+  }
+  .aboot img {
+    width: 100%;
+  }
+  .aboot {
+    margin-top: -1px;
+  }
+  .about-txt {
+    padding-left: 20px;
+  }
+  .aboot {
+    background: url(imgs/bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+  }
+  .about-txt p {
+    color: white;
+    line-height: 23px;
+  }
+  .about-txt h2 {
+    color: black;
+  }
+  .cont {
+    background: url(imgs/bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -1px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+  }
+}
